@@ -1,21 +1,42 @@
+body {
+  background-color: rgba(0, 0, 0, 0.547);
+  color: white;
+}
 main {
-    margin: 20rem 60rem
+    margin: 20rem 60rem;
+}
+
+button {
+  border-radius: 1rem;
+}
+
+button {
+  background-color: white;
+  border-color: white;
+}
+
+button:hover {
+  border: 2px solid black
 }
 
 li {
   margin-top: 5px
 }
 
+.italic {
+  font-style: italic;
+}
+
 #edit_btn,
 #isDone_btn,
 #delete_btn {
-  margin-right: 5px;
-}
-
-#delete_btn {
-  margin-left: 10px
+  margin-left: 6px;
 }
 
 #deleteAll_btn {
-  margin-left: 5px;
+  margin-right: 6px;
+}
+
+#add_btn {
+  margin-left: 6px;
 }
