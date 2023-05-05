@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import React from 'react'
 
-function useMainFrame() {
+function mainFrame() {
   const [inputValue, setInputValue] = useState('')
   const [todo_list, setTodo_list] = useState([{
     inputValue: '', 
@@ -206,4 +206,4 @@ const deleteAll = () => {
         </main>
      )
 }
-export {useMainFrame}
+export {mainFrame}
