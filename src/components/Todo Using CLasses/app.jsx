@@ -222,5 +222,5 @@ class Todo extends React.Component {
         </main>
      )
   }
-  }
-  export {Todo}
+}
+export {Todo}
