@@ -24,6 +24,11 @@ let addTask = (event) => {
   setInputValue(event.target.value)
 }
 
+let handleAddTodo = (id) => {
+  let newTodo = { id: id, name: inputValue}
+  let updatedTodos = todo_list.concat(newTodo)
+}
+
 
 // ----Delete Task----
 let deleteTask = (id) => {
