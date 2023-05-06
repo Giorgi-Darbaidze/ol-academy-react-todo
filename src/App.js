@@ -1,4 +1,4 @@
-import {Todo} from './components/Todo-Using-Classes/app.jsx'
+import {Todo} from './components/Todo-Using-CLasses/app.jsx'
 
 function App() {
   return (
